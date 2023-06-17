@@ -6,7 +6,25 @@
 
 
 
-//le's learn one by one
+//let's learn one by one
 
 //JavaScript Explicit Conversion
+
+//Convert to BOOLEAN Explicitly
+let result;
+result = Boolean('');
+console.log(result); // false
+
+result = Boolean(0);
+console.log(result); // false
+
+result = Boolean(undefined);
+console.log(result); // false
+
+result = Boolean(null);
+console.log(result); // false
+
+result = Boolean(NaN);
+console.log(result); // false
+
 
