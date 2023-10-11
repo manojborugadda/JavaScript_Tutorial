@@ -1,7 +1,7 @@
 let stringType = "69";
 console.log(stringType , typeof(stringType)); // 69 string
 
-//Number method
+//Number method 
 let num = Number(stringType);//if the string we are passing is not having of numeric value it will return NaN
 console.log(num,typeof(num)); //69 number
 
